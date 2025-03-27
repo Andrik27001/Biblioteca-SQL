@@ -1,0 +1,6 @@
+USE Biblioteca
+
+CREATE TABLE Autores (
+    Autor_id SMALLINT IDENTITY(1,1) PRIMARY KEY,
+    Autor VARCHAR(25) NOT NULL UNIQUE
+)
